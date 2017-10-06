@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+	
+	float a,b,sonuc;
+	char x;
+	
+	printf("yapmak istediginiz islemi yaziniz:\t");
+	scanf("%f%c%f",&a,&x,&b);
+	
+	if (x=='+') {
+		sonuc=a+b;
+		printf("sonuc=%f\n\n",sonuc);
+	}
+	
+	else if (x=='-') {
+		sonuc=a-b;
+		printf("sonuc=%f\n\n",sonuc);
+	}
+	
+	else if (x=='*') {
+		sonuc=a*b;
+		printf("sonuc=%f\n\n",sonuc);
+	}
+	
+	else if (x=='/') {
+		sonuc=a/b;
+		printf("sonuc=%f\n\n",sonuc);
+	}
+	
+	else {
+		printf("hatali islem.");
+	}
+	
+	system("pause");
+	return 0;
+}
