@@ -1,2 +1,2 @@
 # C-Projects
-C Language Console Applications
+Console Applications
